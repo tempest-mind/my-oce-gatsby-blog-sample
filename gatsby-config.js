@@ -29,6 +29,11 @@ if (incomingHookBody) {
     console.log('INCOMING_HOOK_BODY.SERVER_URL', serverUrl);
     console.log('INCOMING_HOOK_BODY.CHANNEL_TOKEN', channelToken);
     console.log('INCOMING_HOOK_BODY.PROXY_URL', proxyUrl);
+    console.log('INCOMING_HOOK_BODY.CLIENT_SCOPE_URL', clientScopeUrl);
+    console.log('INCOMING_HOOK_BODY.CLIENT_ID', clientId);
+    console.log('INCOMING_HOOK_BODY.CLIENT_SECRET', clientSecret);
+    console.log('INCOMING_HOOK_BODY.IDP_URL', idpUrl);
+    console.log('INCOMING_HOOK_BODY.PREVIEW', incomingHookBody);
   } catch (e) {
     console.error('Error parsing INCOMING_HOOK_BODY', incomingHookBody);
   }
